@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.Common", "FileTransfer.Common\FileTransfer.Common.csproj", "{ECCDBD7A-F813-4547-A519-9AD08F099074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.Server", "FileTransfer.Server\FileTransfer.Server.csproj", "{D64DF823-8544-44E7-B886-D72DF2781BA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.Client", "FileTransfer.Client\FileTransfer.Client.csproj", "{F5F691F1-30B2-456B-B383-137AB525A529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileTransfer.Monitor", "FileTransfer.Monitor\FileTransfer.Monitor.csproj", "{F864439C-F17F-4A6C-BEB6-DD934B644A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCDBD7A-F813-4547-A519-9AD08F099074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCDBD7A-F813-4547-A519-9AD08F099074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCDBD7A-F813-4547-A519-9AD08F099074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCDBD7A-F813-4547-A519-9AD08F099074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64DF823-8544-44E7-B886-D72DF2781BA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64DF823-8544-44E7-B886-D72DF2781BA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64DF823-8544-44E7-B886-D72DF2781BA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64DF823-8544-44E7-B886-D72DF2781BA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F691F1-30B2-456B-B383-137AB525A529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F691F1-30B2-456B-B383-137AB525A529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F691F1-30B2-456B-B383-137AB525A529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F691F1-30B2-456B-B383-137AB525A529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F864439C-F17F-4A6C-BEB6-DD934B644A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F864439C-F17F-4A6C-BEB6-DD934B644A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F864439C-F17F-4A6C-BEB6-DD934B644A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F864439C-F17F-4A6C-BEB6-DD934B644A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
