@@ -9,12 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ae85afa-ceff-4ef4-9528-c4ea2af0d354" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FileTransfer.Common/FileStartMessage.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileTransfer.Common/FileHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Client/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Common/FileTransfer.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Common/FileTransfer.Common.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Common/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Common/FileStartMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Common/File.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +24,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/FileTransfer.Client/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FileTransfer.Common/FileStartMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FileTransfer.Common/File.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FileTransfer.Common/FileHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FileTransfer.Monitor/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FileTransfer.Server/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/FileTransfer.Server/ServerListener.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="388SkkGHWvwz49UuQjsN1o0CAY6" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.FileTransfer">
     <configuration name="FileTransfer" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -169,7 +167,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768179850392</updated>
-      <workItem from="1768179851676" duration="3584000" />
+      <workItem from="1768179851676" duration="3939000" />
+      <workItem from="1768331221178" duration="5026000" />
     </task>
     <servers />
   </component>

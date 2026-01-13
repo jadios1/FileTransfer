@@ -26,23 +26,20 @@ public class FileTransferServer
     public void HandleClients()
     {
         Byte[] bytes = new Byte[256];
-        String data = null;
 
         while (true)
         {
             Console.WriteLine("Waiting for connection...");
             using TcpClient client = _server.AcceptTcpClient();
             Console.WriteLine("Connected!");
-
-            data = null;
-
+            
             NetworkStream stream = client.GetStream();
 
             int i = 0;
 
             while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
             {
-                continue;
+                
             }
 
         }
