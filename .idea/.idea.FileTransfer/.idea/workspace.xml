@@ -9,10 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ae85afa-ceff-4ef4-9528-c4ea2af0d354" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FileTransfer.Common/FileHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Common/FileStartMessage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Common/File.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1768179850392</updated>
       <workItem from="1768179851676" duration="3939000" />
-      <workItem from="1768331221178" duration="5026000" />
+      <workItem from="1768331221178" duration="5377000" />
     </task>
     <servers />
   </component>

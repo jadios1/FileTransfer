@@ -1,3 +1,5 @@
+using FileTransfer.Common;
+
 namespace FileTransfer.Server;
 using System;
 using System.IO;
@@ -34,13 +36,10 @@ public class FileTransferServer
             Console.WriteLine("Connected!");
             
             NetworkStream stream = client.GetStream();
-
-            int i = 0;
-
-            while ((i = stream.Read(bytes, 0, bytes.Length)) != 0)
-            {
-                
-            }
+            
+            FileHandler handler = new FileHandler(stream);
+            handler.FileRecive(".");
+            
 
         }
     }
