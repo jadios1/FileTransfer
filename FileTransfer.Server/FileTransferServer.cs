@@ -20,27 +20,58 @@ public class FileTransferServer
         _server = new TcpListener(_ipAddress,_port);
     }
 
-    public void StartListening()
+
+
+    public async Task AcceptClients(CancellationToken token = default)
     {
         _server.Start();
-    }
-
-    public void HandleClients()
-    {
-        Byte[] bytes = new Byte[256];
-
+        var clients = new List<Task>();
         while (true)
         {
-            Console.WriteLine("Waiting for connection...");
-            using var client = _server.AcceptTcpClient();
-            Console.WriteLine("Connected!");
-            
-            NetworkStream stream = client.GetStream();
-            
-            FileHandler handler = new FileHandler(stream);
-            handler.FileRecive(".");
-            
+            try
+            {
+                TcpClient client = await _server.AcceptTcpClientAsync(token);
+                clients.Add(HandleClientsAsync(client,token));
+                clients.RemoveAll(task => task.IsCompleted);
+            }
+            catch (OperationCanceledException)
+            {
+                break;
+            }
+        }
 
+        _server.Stop();
+        await Task.WhenAll(clients);
+
+    }
+
+    private async Task HandleClientsAsync(TcpClient client,CancellationToken cts)
+    {
+        try
+        {
+            Byte[] bytes = new Byte[256];
+            NetworkStream stream = client.GetStream();
+
+            FileHandlerAsync handler = new FileHandlerAsync(stream);
+            await handler.FileReceiveAsync("/home/jadios/Documents/FileTransferTemp/", cts);
+
+        }
+        catch (OperationCanceledException)
+        {
+            Console.WriteLine("Server Shutdown!");
+        }
+        catch (IOException)
+        {
+            Console.WriteLine("Client Disconnected abruptly");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"Error handling client: {e.Message}");
+        }
+        finally
+        {
+            client.Dispose();
+            Console.WriteLine("Client disconnected");
         }
     }
 
