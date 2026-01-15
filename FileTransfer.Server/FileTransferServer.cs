@@ -32,7 +32,7 @@ public class FileTransferServer
         while (true)
         {
             Console.WriteLine("Waiting for connection...");
-            using TcpClient client = _server.AcceptTcpClient();
+            using var client = _server.AcceptTcpClient();
             Console.WriteLine("Connected!");
             
             NetworkStream stream = client.GetStream();
