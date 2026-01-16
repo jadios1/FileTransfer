@@ -10,9 +10,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6ae85afa-ceff-4ef4-9528-c4ea2af0d354" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FileTransfer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Client/FileTransfer.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Client/FileTransfer.Client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Client/FileTransferClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Client/FileTransferClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Client/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileTransfer.Common/FileHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Common/FileHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Server/FileTransferServer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileTransfer.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileTransfer.Server/FileTransfer.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/FileTransfer.Server/FileTransfer.Server.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Project.FileTransfer">
+  <component name="RunManager" selected=".NET Project.FileTransfer.Common">
     <configuration name="FileTransfer" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -169,7 +171,8 @@
       <updated>1768179850392</updated>
       <workItem from="1768179851676" duration="3939000" />
       <workItem from="1768331221178" duration="5377000" />
-      <workItem from="1768476967506" duration="9794000" />
+      <workItem from="1768476967506" duration="14546000" />
+      <workItem from="1768507430550" duration="533000" />
     </task>
     <servers />
   </component>
@@ -177,6 +180,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

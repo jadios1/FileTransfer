@@ -11,5 +11,4 @@
     <ProjectReference Include="..\FileTransfer.Common\FileTransfer.Common.csproj" />
 </ItemGroup>
 
-
 </Project>

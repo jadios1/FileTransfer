@@ -49,7 +49,6 @@ public class FileTransferServer
     {
         try
         {
-            Byte[] bytes = new Byte[256];
             NetworkStream stream = client.GetStream();
 
             FileHandlerAsync handler = new FileHandlerAsync(stream);
